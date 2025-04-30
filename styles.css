@@ -1,0 +1,98 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+/* Sección de Bienvenida */
+.bienvenida {
+    background: linear-gradient(to right, #a135a1, #0b0b0b); /* Fondo degradado */
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Contenedor con fondo */
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Texto a la izquierda */
+.texto {
+    max-width: 50%;
+    color: white;
+}
+
+.texto h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.texto p {
+    font-size: 18px;
+}
+
+/* Botón */
+.boton {
+    display: inline-block;
+    background-color: white;
+    color: #ff5733;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/* Imagen a la derecha */
+.imagen img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+/* Sección de descripción en fondo blanco */
+.descripcion {
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+.descripcion h2 {
+    color: #333;
+    font-size: 28px;
+}
+
+.descripcion p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: auto;
+    color: #555;
+}
+
+/* Botón de WhatsApp flotante */
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.whatsapp-button img {
+    width: 50px;
+    height: auto;
+}
+
+.whatsapp-text {
+    font-size: 18px;
+    color: #25D366;
+    font-weight: bold;
+    margin-left: 10px;
+}
