@@ -8,13 +8,13 @@ body {
 
 /* Sección de Bienvenida */
 .bienvenida {
-    background: linear-gradient(to right, #a135a1, #0b0b0b); /* Fondo degradado */
+    background: linear-gradient(to right, #a13567, #0b0b0b); /* Fondo degradado */
     padding: 50px 0;
     text-align: center;
 }
 
 /* Contenedor con fondo */
-.contenedor {
+.contenedor {   
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -35,7 +35,7 @@ body {
 }
 
 .texto p {
-    font-size: 18px;
+    font-size: 22px;
 }
 
 /* Botón */
@@ -64,15 +64,15 @@ body {
 }
 
 .descripcion h2 {
-    color: #333;
+    color: #030303;
     font-size: 28px;
 }
 
 .descripcion p {
-    font-size: 18px;
+    font-size: 22px;
     max-width: 800px;
     margin: auto;
-    color: #555;
+    color: #060606;
 }
 
 /* Botón de WhatsApp flotante */
@@ -91,8 +91,51 @@ body {
 }
 
 .whatsapp-text {
-    font-size: 18px;
+    font-size: 22px;
     color: #25D366;
     font-weight: bold;
     margin-left: 10px;
+}
+
+header {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center; /* Alinear verticalmente logo y texto */
+    position: absolute;
+    top: 40px; /* Mantiene la posición original */
+    left: 80px; /* Ajusta la ubicación del logo */
+}
+
+.logo {
+    width: 140px; /* Tamaño del logo */
+    height: auto;
+    margin-right: 20px; /* Espacio entre el logo y el eslogan */
+}
+
+.eslogan {
+    font-size: 22px;
+    font-weight: bold;
+    color: #f6f0f0;
+    white-space: nowrap; /* Evita que el texto se rompa en varias líneas */
+}
+
+.contenedor-objetivo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 22px; /* Puedes cambiar este valor según lo necesites */
+
+}
+
+.texto-efecto {
+    white-space: pre-line;
+    text-align: center;
+    font-size: 22px; /* Puedes cambiar este valor según lo necesites */
+
 }
